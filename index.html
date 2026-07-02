@@ -6,7 +6,7 @@
   async function loadMspfaScript(adventureId) {
     try {
       // Fetch the public adventure data from the MSPFA API
-      const response = await fetch(`https://mspfa.com{adventureId}`);
+      const response = await fetch(`https://mspfa.com/{adventureId}`);
       const data = await response.json();
 
       // Check if custom JavaScript exists on the adventure

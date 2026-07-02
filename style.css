@@ -49,4 +49,8 @@ div img { max-width: 100%; height: auto; }
 .myButton:active {
 	position:relative;
 	top:1px;
-  }
+}
+
+/*Typing Quirks*/
+
+#QUINZEL { color: #ff00ff; text-transform: capitalize;  }

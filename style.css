@@ -4,7 +4,7 @@ body {
   background-size: cover; /* Scale the image to cover the entire container */
   background-attachment: fixed; /* Fix the image in place while scrolling */
   background-color: #7d7ded; /* Fallback color if the image can't load */
-  background-image: linear-gradient(to bottom, #1ecc77, #ff00ff);
+  background-image: linear-gradient(to bottom, #1c001c, #3f002f);
 }
 
 p { text-align: center; font-size: 30px; margin-left: 20px;}
@@ -17,40 +17,16 @@ a { font-size: 40px; margin-left: 60px; margin-bottom: 60px;}
 
 .fullpage { width: 80%; margin-left: 10%; margin-right: 10%; margin-top: 2%; display: block;}
 
-div { width: 80%; margin-left:10%; margin-right: 10%; display: block; font-family: "Courier New";
+div { width: 70%; margin-left:10%; margin-right: 10%; display: block; font-family: "Courier New";
+    padding: 10px 20px 10px 20px;
   background-repeat: no-repeat; /* Prevent the image from repeating */
   background-size: cover; /* Scale the image to cover the entire container */
   background-attachment: fixed ; /* Fix the image in place while scrolling */
-  background-color: #ffffff; /* Fallback color if the image can't load */
+  background-color: #f0f0f0; /* Fallback color if the image can't load */
+  outline: 7px double #f0f0f0;
+  
 }
 
 div img { max-width: 100%; height: auto; }
 
-.myButton {
-	background:linear-gradient(to bottom, #79ddff 5%, #ffffff 100%);
-	background-color:#79bbff;
-	border-radius:5px;
-	border:1px solid #3409f4;
-	display:inline-block;
-	cursor:pointer;
-	color:#008fde;
-	font-family:Courier New;
-	font-size:28px;
-	font-weight:bold;
-	padding:12px 44px;
-	text-decoration:none;
-	/*text-shadow:6px 2px 0px #528ecc;*/
-}
-.myButton:hover {
-	background:linear-gradient(to bottom, #0000ff 5%, #79bbff 100%);
-	color: #eeeeff ;
-	background-color:#0000ff;
-}
-.myButton:active {
-	position:relative;
-	top:1px;
-}
-
-/*Typing Quirks*/
-
-#QUINZEL { color: #ff00ff; text-transform: capitalize;  }
+div span { text-align: center; }

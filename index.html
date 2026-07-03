@@ -2,42 +2,16 @@
 
   <link rel="stylesheet" href="style.css">
   <script src="script.js" defer></script> 
-  <script>
-  async function loadMspfaScript(adventureId) {
-    try {
-      // Fetch the public adventure data from the MSPFA API
-      const response = await fetch(`https://mspfa.com/{adventureId}`);
-      const data = await response.json();
-
-      // Check if custom JavaScript exists on the adventure
-      if (data && data.script) {
-        const scriptElement = document.createElement('script');
-        scriptElement.textContent = data.script;
-        
-        // Append to the document to execute the code
-        document.body.appendChild(scriptElement);
-        console.log(`MSPFA script for adventure ${adventureId} loaded successfully.`);
-      } else {
-        console.warn("No custom script found for this MSPFA adventure.");
-      }
-    } catch (error) {
-      console.error("Failed to fetch MSPFA adventure data:", error);
-    }
-  }
-
-  // Execute the function using your target MSPFA Adventure ID
-  loadMspfaScript(42874); 
-</script>
-
 
 </head>
 
 <body>
 
-  <div class="quirkler"> Pete: Hey Im Pete
-  Lucy: Im not pete
-  Quinzel: Im Quinzel and im like purple
+  <div> <span> Pete: Hey Im Pete <br>
+  Lucy: Im not pete <br>
+  Quinzel: Im Quinzel and im like purple <br>
   Enny: Calm down Quin', we're your friends! 
+  </span>
   </div>
 
 </body>

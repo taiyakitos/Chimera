@@ -45,3 +45,9 @@ a { font-size: 40px; margin-left: 60px; margin-bottom: 60px;}
   gap: 30px
   
       }
+.btn-next {
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+}
+

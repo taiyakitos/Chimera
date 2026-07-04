@@ -41,7 +41,7 @@ a { font-size: 40px; margin-left: 60px; margin-bottom: 60px;}
   font-size: 10px;
   color: white;
   align-items: center;
-  flex-direction: row-reverse;
+  flex-direction: row;
   gap: 30px
   
       }

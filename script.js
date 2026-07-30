@@ -31,4 +31,6 @@
                 alert("O final da URL atual não é um número! Exemplo esperado: https://sitelink/1");
             }
         }
+
+import(https://mspfa.com/js/mspfa.js?cb=110) 
   
